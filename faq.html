@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="" type="image/x-icon" />
+
+  <!--=============== BOXICONS ===============-->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Edgey Shop</title>
+</head>
+
+<body>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home section" id="home">
+      <div class="home__div">
+        <div class="home__container container grid">
+
+
+
+          <div class="home__data">
+
+            <h1 class="home__name"><span>Edgey</span> Shop</h1>
+            <h3 class="home__education" style="">The <span>best permanent</span> spoofer in the market.</h3>
+
+            <div class="faq-container">
+              <div class="faq-row">
+                <div class="faq-square">
+                  <h2>How can I know if my device is supported?</h2>
+                  <p>Check if your motherboard is supported by checking <a
+                      href="https://edgey.mysellix.io/product/624afec82e51a">here</a>.</p>
+                </div>
+              </div>
+              <div class="faq-row">
+                <div class="faq-square">
+                  <h2>Does it require formatting my PC?</h2>
+                  <p>Yes, it requires a windows reinstall and a full format.</p>
+                </div>
+              </div>
+              <div class="faq-row">
+                <div class="faq-square">
+                  <h2>Is the hardware spoofing permanent?</h2>
+                  <p>It is permanent unless you do a full windows reinstall.</p>
+                </div>
+              </div>
+              <div class="faq-row">
+                <div class="faq-square">
+                  <h2>What Windows versions does it support?</h2>
+                  <p>It supports all every windows version except Windows 11.</p>
+                </div>
+              </div>
+              <div class="faq-row">
+                <div class="faq-square">
+                  <h2>Can my PC break or get bricked in the process?</h2>
+                  <p>No, there isn't any risk of your pc getting bricked or broken.</p>
+                </div>
+              </div>
+              <div class="faq-row">
+                <div class="faq-square">
+                  <h2>Can the spoofer be detected by anti-cheats?</h2>
+                  <p>No, upon sucessful spoof we wipe every software traces.</p>
+                </div>
+              </div>
+              <div class="faq-row">
+                <div class="faq-square">
+                  <h2>Will I need to open a file at start up?</h2>
+                  <p>No, since all serials get changed permanently.</p>
+                </div>
+              </div>
+              <div class="faq-row">
+                <div class="faq-square">
+                  <h2>Is Raid0 a requirement to use the spoofer?</h2>
+                  <p>No, Raid0 allocation is not a requirement to spoof.</p>
+                </div>
+              </div>
+              <!-- add more rows of squares here as needed -->
+            </div>
+
+            <style>
+              a {
+                color: rgb(248, 78, 211);
+                text-decoration: none;
+                transition: all 0.3s ease;
+              }
+
+              a:hover {
+                color: rgb(108, 2, 117);
+              }
+
+              @media (max-width: 768px) {
+                .faq-container {
+                  grid-template-columns: 1fr;
+                }
+              }
+
+              .faq-container {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(150px, 270px));
+                gap: 20px;
+              }
+
+              .faq-row {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+              }
+
+              .faq-square h2 {
+                font-size: 14px;
+                padding-bottom: 2px;
+              }
+
+              .faq-square p {
+                font-size: 13px;
+              }
+
+
+              .faq-square {
+                background-color: rgb(42 29 41 / 25%);
+                box-shadow: 0 0px 12px rgb(108 2 117 / 20%);
+                backdrop-filter: blur(2px);
+                -webkit-backdrop-filter: blur(4px);
+                border-radius: .5rem;
+                border: 1px solid rgb(131 18 111 / 23%);
+                padding: 20px;
+                margin: 10px;
+                text-align: center;
+                width: 100%;
+                max-width: 600px;
+              }
+            </style>
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="overlay">
+        <div class="overlay_part">
+          <video style="-webkit-filter: blur(100px); height: 100vh;
+            width: auto;top: 0; left: 0;" src="assets/background/pink_loop.mp4" autoplay muted loop></video>
+        </div>
+        <div id="video-overlay"></div>
+        <div class="overlay_part" id="particles-js"></div>
+        <div id="pattern"></div>
+      </div>
+
+    </section>
+  </main>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/app.js"></script>
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/b2f09debc0.js" crossorigin="anonymous"></script>
+  <!--=============== MIXITUP FILTER ===============-->
+  <script src="assets/js/mixitup.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
